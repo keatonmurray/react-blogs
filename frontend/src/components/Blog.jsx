@@ -48,8 +48,8 @@ const Blog = () => {
                 </div>
                 <div className="button d-flex justify-content-center">
                     <a href="#" className="btn btn-primary w-auto me-1">Update</a>
-                    <a href="#" className="btn btn-primary w-auto me-1">Delete</a>
-                    <Link to="/blogs" className="btn btn-primary w-auto">Go back</Link>
+                    <a href="#" className="btn btn-danger w-auto me-1">Delete</a>
+                    <Link to="/blogs" className="btn btn-secondary w-auto">Go back</Link>
                 </div>
             </div>
         </div>
